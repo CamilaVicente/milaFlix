@@ -1,0 +1,26 @@
+FILMES
+
+
+[GET] /assistir
+[GET] /filmes ok
+[GET] /filmes/buscar/{id} ok
+[GET] /filmes/buscar?{titulo} ok
+[GET] /filmes/filtrar?{genero}ok
+[POST]/filmes/criar ok
+[PATCH]/filmes/updateTitle?{id} 
+[PATCH]/filmes/update/{id} 
+[PUT]/filmes/update/{id} 
+[DELETE]/filmes/deletar/{id} 
+
+
+SÉRIES
+
+[GET] /series ok
+[GET] /series{id} ok
+[GET] /series{titulo} 
+[GET] /series{genero} 
+[POST]/series/criar
+[PUT]/series/update/{id}
+[PATCH]/series/updateTitle?{id} // Both Query Params
+[PATCH]/series/update/{id} -->UpdateAnything // Path Params
+[DELETE]/series/deletar/{id}
